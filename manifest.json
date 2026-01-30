@@ -1,0 +1,9 @@
+{
+  "id": "joplin-to-obsidian",
+  "name": "Joplin to Obsidian",
+  "version": "1.0.0",
+  "minAppVersion": "0.15.0",
+  "description": "从 Joplin 导入笔记到 Obsidian，支持文件夹层级和资源文件",
+  "author": "lizhifeng",
+  "isDesktopOnly": true
+}
