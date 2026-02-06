@@ -34,14 +34,12 @@ export default class JoplinToObsidianPlugin extends Plugin {
   async onload() {
     await this.loadSettings();
 
-    // 添加命令：导入 Joplin 笔记
     this.addCommand({
       id: 'import-joplin-notes',
       name: '从 Joplin 导入笔记',
       callback: () => this.importNotes()
     });
 
-    // 添加设置标签页
     this.addSettingTab(new JoplinToObsidianSettingTab(this.app, this));
   }
 
